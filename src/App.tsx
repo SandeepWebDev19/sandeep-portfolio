@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import AnimatedBackground from "./components/AnimatedBackground";
 
 import Hero from "./sections/Hero";
 import About from "./sections/About";
@@ -8,10 +9,12 @@ import Experience from "./sections/Experience";
 import Education from "./sections/Education";
 import Contact from "./sections/contact";
 
-
 function App() {
   return (
-    <div className="min-h-screen bg-[#050505] text-white">
+    <div className="relative min-h-screen overflow-hidden bg-[#050505] text-white">
+
+      <AnimatedBackground />
+
       <Navbar />
 
       <main>
@@ -23,6 +26,7 @@ function App() {
         <Education />
         <Contact />
       </main>
+
     </div>
   );
 }
