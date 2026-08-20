@@ -156,7 +156,7 @@ const Skills = () => {
                     </span>{" "}
                     Building production-style React and Node.js
                     applications, with a strong emphasis on clean API design and
-                    test coverage."
+                    test coverage.
                 </motion.div>
 
             </div>
